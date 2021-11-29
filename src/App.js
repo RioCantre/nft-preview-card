@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import images from './images/image-equilibrium.jpg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <div className='App'>
+        <header className='App-header'>
+          <div>
+            <img src={images} alt='img' />
+          </div>
+          <h2>Equilibrium #3429</h2>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </header>
+      </div>
+    );
 }
 
 export default App;

@@ -8,7 +8,7 @@ function App() {
           <div>
             <img src={images} alt='img' />
           </div>
-          <h2>Equilibrium #3429</h2>
+          <a href='https://fonts.google.com/'>Equilibrium #3429</a>
           <p>Our Equilibrium collection promotes balance and calm.</p>
         </header>
       </div>

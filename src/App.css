@@ -44,3 +44,7 @@ img {
   margin-bottom: 1rem;
   border-radius: 10px;
 }
+
+img:hover {
+    background-color: hsla(178, 100%, 50%, 1);
+}

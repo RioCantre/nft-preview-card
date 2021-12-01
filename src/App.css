@@ -6,7 +6,7 @@
     height: 543px;
     margin: 0 1.3rem;
     margin-top: 100px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .App-header {
@@ -33,7 +33,7 @@
   font-size: 18px;
   line-height: 26px;
   color: hsla(215, 51%, 70%, 1);
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   font-weight: 300;
   font-style: normal
 }
@@ -42,6 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -82,3 +83,16 @@
 .hero-image:hover .image-hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 1440px){
+    .App {
+        width: 345px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 100px;
+
+    }
+}
+

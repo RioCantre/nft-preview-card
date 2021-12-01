@@ -38,13 +38,47 @@
   font-style: normal
 }
 
-
-img {
-  width: 278px;
-  margin-bottom: 1rem;
-  border-radius: 10px;
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img:hover {
-    background-color: hsla(178, 100%, 50%, 1);
+
+.main-image {
+  width: 278px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  opacity: 1;
+
+}
+
+.image-hover {
+    background: hsla(178, 100%, 50%, 0.5);
+    width: 278px;
+    height: 278px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 37.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.icon-view {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+}
+
+.hero-image:hover .image-hover {
+    opacity: 0.3;
+}
+
+.hero-image:hover .image-hover {
+    opacity: 1;
 }

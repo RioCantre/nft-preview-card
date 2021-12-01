@@ -1,0 +1,51 @@
+
+.box1-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.icon1-content,
+.icon2-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.icon1-content {
+    margin: 0;
+    margin-right: 6.5rem;
+}
+
+.icon2-content {
+    margin: 0;
+}
+
+.icon1-content img {
+    width: 11px;
+    height: 18px;
+    margin: 0;
+}
+
+.icon1-content .icon1-value {
+    color:hsla(178, 100%, 50%, 1);
+    margin-left: 0.2rem;
+
+}
+
+.icon2-content img{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    margin-right: 0.3rem;
+}
+
+.icon1-content p,
+.icon2-content p {
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+}

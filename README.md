@@ -27,13 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![Sreenshot](mobile-design.jpg) -->
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Sreenshot](mobile-design.jpg)
 
 ### Links
 
@@ -50,7 +44,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-
 ### What I learned
 
 I learned how to add another layer on hover state of an image. I structured first the HTML elements and use CSS styling to accomplish the ideal design. 
@@ -65,6 +58,7 @@ See the code snippets below:
         </div>
     </div>
 ```
+
 ```css
 .image-hover {
     background: hsla(178, 100%, 50%, 0.5);
@@ -84,8 +78,6 @@ See the code snippets below:
 ```
 
 
-
-
 ### Continued development
 
 In this project I would like to improve more on styling the hover state of the hero image, I would like to improve the placement of the components and a perfect height of the container. I struggled with the actual position of the card since I'm using a small screen. 
@@ -93,7 +85,6 @@ In this project I would like to improve more on styling the hover state of the h
 
 ### Useful resources
 
-- [Google fonts](https://fonts.google.com/) - The font style in the given design can be found in google fonts.
 - [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity) - This help me solved the hover state of the hero image. I used this example and applied it on CSS style.
 
 ## Author

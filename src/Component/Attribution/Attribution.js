@@ -12,18 +12,17 @@ function Attribution() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Frontend Mentor
+          Frontend Mentor.
         </a>
-         .Coded by
+          Coded by
         <a
           href='https://www.frontendmentor.io/profile/RioCantre'
           target='_blank'
           rel='noopener noreferrer'
           className='link'
         >
-          Rio Cantre
+          Rio Cantre.
         </a>
-        .
       </div>
     );
 }

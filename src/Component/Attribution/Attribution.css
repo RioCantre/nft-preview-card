@@ -1,0 +1,20 @@
+
+
+.attribution {
+    text-align: center;
+    padding: 1rem;
+    color:hsla(0, 0%, 100%, 1);
+    font-size: 13px;
+    font-weight: 300;
+    
+}
+
+a {
+    padding: 0 0.3rem ;
+    text-decoration: none;
+    color:hsla(0, 0%, 100%, 1);
+}
+
+a:hover {
+    color: hsla(178, 100%, 50%, 1);
+}

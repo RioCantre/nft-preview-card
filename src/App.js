@@ -8,7 +8,7 @@ import Attribution from './Component/Attribution/Attribution';
 
 function App() {
     return (
-        <div>
+        <div className='container'>
             <div className='App'>
             <header className='App-header'>
                 <div className='hero-image'>

@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Sreenshot](mobile-design.jpg)
+![Screenshot](mobile-design.jpg)
 
 ### Links
 
@@ -80,7 +80,7 @@ See the code snippets below:
 
 ### Continued development
 
-In this project I would like to improve more on styling the hover state of the hero image, I would like to improve the placement of the components and a perfect height of the container. I struggled with the actual position of the card since I'm using a small screen. 
+In this project I would like to improve more on styling the hover state of the hero image,the placement of the components and perfect height of the container. I struggled with the actual position of the card since I'm using a small screen. 
 
 
 ### Useful resources

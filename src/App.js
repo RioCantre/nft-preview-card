@@ -9,17 +9,24 @@ function App() {
     return (
         <div className='App'>
             <header className='App-header'>
-                <div className="hero-image">
-                    <img src={images}  className= "main-image" alt='img' />
-                    <div className="image-hover">
-                        <img src={iconView} className="icon-view" alt="icon view"/>
-                    </div>
+            <div className='hero-image'>
+                <img src={images} className='main-image' alt='img' />
+                <div className='image-hover'>
+                <img src={iconView} className='icon-view' alt='icon view' />
                 </div>
-                <a href='https://fonts.google.com/'>Equilibrium #3429</a>
-                <p>Our Equilibrium collection promotes balance and calm.</p>
-                <Box1 />
-                <Box2 />
+            </div>
+            <a href='https://fonts.google.com/'>Equilibrium #3429</a>
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+            <Box1 />
+            <Box2 />
             </header>
+            <div class='attribution'>
+                Challenge by
+                <a href='https://www.frontendmentor.io?ref=challenge' target='_blank'>
+                    Frontend Mentor
+                </a>
+                . Coded by <a href='#'>Rio Cantre</a>.
+            </div>
         </div>
     );
 }

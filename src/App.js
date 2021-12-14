@@ -8,14 +8,14 @@ import Attribution from './Component/Attribution/Attribution';
 
 function App() {
     return (
-      <div className='container'>
-        <div className='main'>
+      <div >
+        <main className='main'>
           <div className='main-header'>
             <div className='hero-image'>
               <img
                 src={images}
                 className='main-image'
-                alt='nft Equilibrium #3429'
+                alt='nft'
               />
               <div className='image-hover'>
                 <img
@@ -33,7 +33,7 @@ function App() {
             <Box1 />
             <Box2 />
           </div>
-        </div>
+        </main>
         <Attribution />
       </div>
     );

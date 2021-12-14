@@ -8,23 +8,34 @@ import Attribution from './Component/Attribution/Attribution';
 
 function App() {
     return (
-        <div className='container'>
-            <div className='App'>
-            <header className='App-header'>
-                <div className='hero-image'>
-                <img src={images} className='main-image' alt='img' />
-                <div className='image-hover'>
-                    <img src={iconView} className='icon-view' alt='icon view' />
-                </div>
-                </div>
-                <a href='https://fonts.google.com/'>Equilibrium #3429</a>
-                <p>Our Equilibrium collection promotes balance and calm.</p>
-                <Box1 />
-                <Box2 />
-            </header>
+      <div className='container'>
+        <div className='main'>
+          <div className='main-header'>
+            <div className='hero-image'>
+              <img
+                src={images}
+                className='main-image'
+                alt='nft Equilibrium #3429'
+              />
+              <div className='image-hover'>
+                <img
+                  src={iconView}
+                  className='icon-view'
+                  alt=''
+                  aria-hidden='true'
+                />
+              </div>
             </div>
-            <Attribution />
+            <h1>
+                <a href='https://fonts.google.com/'>Equilibrium #3429</a>
+            </h1>      
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+            <Box1 />
+            <Box2 />
+          </div>
         </div>
+        <Attribution />
+      </div>
     );
 }
 

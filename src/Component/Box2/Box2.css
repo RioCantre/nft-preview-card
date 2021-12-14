@@ -24,10 +24,14 @@
     padding: 1.2rem 0;
 }
 
-.box2-content > .box2-name {
+a.box2-name {
+    font-size: 15px;
+    line-height: 19px;
+    padding: 1.2rem 0;
     color: #fff;
     cursor: pointer;
     margin-left: 0.3rem;
+    font-weight: 400;
 }
 
 .box2-name:hover {

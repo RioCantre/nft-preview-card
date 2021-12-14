@@ -24,7 +24,7 @@ test('renders Box1 value', () => {
 
 test('renders Box2 avatar', () => {
   render(<Box2 />);
-  const linkComponent2 = screen.getByAltText(/avatar/i);
+  const linkComponent2 = screen.getByAltText(/Jules Wyvern/i);
   expect(linkComponent2).toBeInTheDocument();
 });
 

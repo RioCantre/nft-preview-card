@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](mobile-design.jpg)
+![Screenshot](./ScreenShot1.png)
 
 ### Links
 

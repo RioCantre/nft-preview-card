@@ -4,7 +4,7 @@ import './Attribution.css';
 
 function Attribution() {
     return (
-        <main>
+        <footer>
             <div className='attribution'>
             Challenge by
             <a
@@ -25,7 +25,7 @@ function Attribution() {
                 Rio Cantre.
             </a>
             </div>
-        </main>
+        </footer>
     );
 }
 

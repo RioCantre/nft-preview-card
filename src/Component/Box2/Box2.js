@@ -7,7 +7,12 @@ function Box2() {
       <div className='box2-content'>
         <img src={avatar} alt='Jules Wyvern' />
         <p className='box2-text'>Creation of </p>
-        <a href="#Jules Whyvern" className='box2-name'>Jules Wyvern</a>
+        <a
+          href='https://www.frontendmentor.io/profile/RioCantre'
+          className='box2-name'
+        >
+          Jules Wyvern
+        </a>
       </div>
     );
 }

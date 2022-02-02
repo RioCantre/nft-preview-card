@@ -11,12 +11,11 @@
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
 
 .icon1-content {
     margin: 0;
-    margin-right: 6.3rem;
+    margin-right: 6rem;
 }
 
 .icon2-content {
